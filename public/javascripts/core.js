@@ -1,1 +1,1 @@
-angular.module('AppBone', ['ControllerBone', 'ServiceBone']);
+angular.module('AppBone', ['controllers', 'services']);

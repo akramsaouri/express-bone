@@ -1,7 +1,6 @@
 var database = require('mongoose');
 
 var dbname = '<dbname>';
-
 var url = 'mongodb://localhost/' + dbname;
 
 database.connect(url, function (err) {

@@ -11,18 +11,19 @@
     "url": "https://github.com/akramsaouri/mean-bone.git"
   },
   "dependencies": {
+    "async": "*",
     "body-parser": "*",
+    "connect-flash": "*",
     "cookie-parser": "*",
     "debug": "*",
+    "dotenv": "^2.0.0",
     "ejs": "*",
     "express": "*",
-    "morgan": "*",
-    "serve-favicon": "*",
+    "express-session": "*",
     "mongodb": "*",
     "mongoose": "*",
-    "async":"*",
-    "express-session":"*",
-    "connect-flash":"*"
+    "morgan": "*",
+    "serve-favicon": "*"
   },
   "author": "Akram Saouri",
   "bugs": {

@@ -1,7 +1,5 @@
 module.exports = function(app) {
 
-    // PRODUCTION ONLY : app.set('env','production');
-
     app.use(function(req, res, next) {
         var err = new Error('Not Found');
         err.status = 404;

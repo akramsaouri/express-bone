@@ -24,4 +24,6 @@ module.exports = function(app, express) {
         saveUninitialized: true
     }));
     app.use(require('connect-flash')());
+
+    app.get('env','dev'); // env : dev || prod
 }

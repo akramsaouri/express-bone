@@ -1,4 +1,6 @@
-module.exports = function(app, express) {
+var express = require('express');
+
+module.exports = function(app) {
 
     var path = require('path');
     var bodyParser = require('body-parser');
@@ -25,5 +27,5 @@ module.exports = function(app, express) {
     }));
     app.use(require('connect-flash')());
 
-    app.get('env','dev'); // env : dev || prod
+    app.set('env', 'dev'); // env : dev || prod
 }

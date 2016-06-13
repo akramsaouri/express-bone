@@ -2,7 +2,8 @@ var express = require('express');
 var app = express();
 
 require('dotenv').config();
-require('./config')(app, express);
+require('./config')(app);
+require('./config/' + app.get('env'))(app);
 
 app.use('/', require('./router/router'));
 

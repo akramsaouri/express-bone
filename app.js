@@ -5,7 +5,7 @@ require('dotenv').config();
 require('./config')(app); // main config file
 require('./config/' + app.get('env'))(app); // env config file
 
-app.use('/', require('./router/router')); // router
+app.use('/', require('./router/')); // router
 
 require('./error')(app); // error hanlder
 

@@ -7,7 +7,7 @@ module.exports = function(app) {
     });
 
     app.use(function(err, req, res, next) {
-        var error = (app.get('env') === 'development') ? err : {};
+        var error = (app.get('env') === 'dev') ? err : {};
         res.status(err.status || 500);
         res.render('error', {
             message: err.message,

@@ -1,5 +1,5 @@
 var db = require('./db')
 
 module.exports = function(app) {
-    db.connect(proccess.env.DB_DEV_NAME);
+    db.connect(process.env.DB_DEV_NAME);
 }

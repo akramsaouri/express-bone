@@ -1,7 +1,7 @@
 {
-  "name": "mean-bone",
+  "name": "express-bone",
   "version": "1.0.0",
-  "description": "A solid boilerplate to help you get up and running mean based projects",
+  "description": "A solid boilerplate to help you get up and running express projects",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,9 +25,5 @@
     "morgan": "*",
     "serve-favicon": "*"
   },
-  "author": "Akram Saouri",
-  "bugs": {
-    "url": "https://github.com/akramsaouri/mean-bone/issues"
-  },
-  "homepage": "https://github.com/akramsaouri/mean-bone#readme"
+  "author": "Akram Saouri"
 }

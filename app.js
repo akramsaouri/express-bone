@@ -10,4 +10,4 @@ require('./error')(app);
 
 app.listen(app.get('port'), function() {
     console.log('App running on port: ' + app.get('port'))
-})
+});
